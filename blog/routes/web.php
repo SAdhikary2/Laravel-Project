@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\UserController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,9 +14,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
 
 
 Route::get('/about',function(){
@@ -27,3 +25,5 @@ Route::get('/about',function(){
 Route::get('/service',function(){
     return view('service');
 });
+
+Route::get('/user',[UserController::class,'show']);

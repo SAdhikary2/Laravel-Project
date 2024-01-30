@@ -6,6 +6,7 @@
     <title>Laravel Learning </title>
 </head>
 <body>
+    {{$name}}
     <h1>This is first laravel learning page</h1>
 </body>
 </html>

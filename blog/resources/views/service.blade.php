@@ -8,6 +8,9 @@
 <body>
 
 
+<!-- importing the component -->
+<x-header/>
+
 <h1>This is the service page </h1>
     
 </body>
